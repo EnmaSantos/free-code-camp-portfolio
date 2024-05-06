@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Sedan+SC&display=swap');
-*{/* CSS HEX */
+:root{/* CSS HEX */
 --dark-moss-green: #606c38ff;
 --pakistan-green: #283618ff;
 --cornsilk: #fefae0ff;
@@ -13,14 +13,12 @@
 --earth-yellow: hsla(32, 65%, 62%, 1);
 --tigers-eye: hsla(28, 67%, 44%, 1);
 
-/* Box sizing rules */
-box-sizing: border-box;
 
 
 }
 
 header{
-    height: 10vh;
+    height: 10%;
     background-color: var(--dark-moss-green);
     margin: 0;
 }
