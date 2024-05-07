@@ -54,5 +54,5 @@ nav ul{
 }
 
 nav ul li{
-  list-style: none;
+  list-style: square;
 }
