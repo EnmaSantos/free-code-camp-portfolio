@@ -52,7 +52,7 @@ nav ul{
   justify-content: flex-end;
   padding: 3rem 0;
   row-gap: 1vh;
-  
+  margin-right: 3vw;
   
 }
 
@@ -68,12 +68,13 @@ nav ul li a {
   font-family: 'Montserrat', sans-serif;
   font-size: clamp(1rem, 2vw, 2rem);
   font-weight: 300;
-  transition: color 0.5s border-bottom 0.5s;
+  transition: color 0.5s, border-bottom 0.5s;
   border-bottom: 3px solid transparent;
+  padding-bottom: 0.6vw;
 
 }
 nav ul li a:hover{
   color: var(--earth-yellow);
-  border-bottom: 3px solid var(--earth-yellow);
-  padding-bottom: 1vw;
+  border-bottom: 0.5vw solid var(--earth-yellow);
+  
 }
