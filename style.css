@@ -42,7 +42,7 @@ footer{
 header{
  
   color: var(--cornsilk);
-   
+   position: sticky;
 }
 nav#navbar{
  width: 100%;
