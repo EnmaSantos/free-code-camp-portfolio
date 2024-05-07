@@ -43,6 +43,9 @@ header{
  
   color: var(--cornsilk);
    position: sticky;
+    top: 0;
+    z-index: 1000;
+    
 }
 nav#navbar{
  width: 100%;
@@ -50,7 +53,7 @@ nav#navbar{
 nav ul{
   display: flex;
   justify-content: flex-end;
-  padding: 3rem 0;
+  padding: 2rem 0;
   row-gap: 1vh;
   margin-right: 3vw;
   
