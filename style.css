@@ -38,3 +38,21 @@ footer{
     height: 10vh;
     background-color: var(--tigers-eye);
 }
+ 
+header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 10%;
+  color: var(--cornsilk);
+}
+
+nav ul{
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+nav ul li{
+  list-style: none;
+}
