@@ -81,3 +81,12 @@ nav ul li a:hover{
   border-bottom: 0.3vw solid var(--earth-yellow);
   
 }
+
+section#welcome-section{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Sedan SC', serif;
+  font-size: clamp(1rem, 2vw, 2rem);
+  color: var(--cornsilk);
+}
