@@ -89,4 +89,13 @@ section#welcome-section{
   font-family: 'Sedan SC', serif;
   font-size: clamp(1rem, 2vw, 2rem);
   color: var(--cornsilk);
+  text-align: center;
+  height: 50vh;
+
+}
+
+section#welcome-section h1{
+  font-size: clamp(1rem, 3vw, 5rem);
+  font-weight: 900;
+  margin-top: 5vh;
 }
