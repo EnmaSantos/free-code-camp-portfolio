@@ -45,6 +45,4 @@
   #root, #__next {
     isolation: isolate;
   }
-  section {
-    margin:0; /* Example: Add 20px margin on top of each section */
-  }
+ 
