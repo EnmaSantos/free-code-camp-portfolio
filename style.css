@@ -40,19 +40,26 @@ footer{
 }
  
 header{
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 0 10%;
+ 
   color: var(--cornsilk);
+  
 }
-
+nav#navbar{
+ width: 100%;
+}
 nav ul{
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-end;
+  padding: 3rem 0;
+  row-gap: 1vh;
   
 }
 
 nav ul li{
   list-style: none;
+  margin: 0 1vw;
+}
+
+html{
+  
 }
