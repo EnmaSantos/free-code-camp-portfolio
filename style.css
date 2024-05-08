@@ -114,3 +114,39 @@ span#name-animation:hover {
    font-size: 1.5em;  
    cursor:none;
 }
+
+section#projects h1, p{ 
+  font-family: 'Roboto', sans-serif;
+  font-size: clamp(1rem, 2vw, 2rem);
+  color: var(--dark-moss-green);
+  text-align: center;
+  margin: 0 5vw;
+}
+
+
+  div.project-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(20vw, 1fr));
+    gap: 1rem;
+    padding: 2rem 5vw;
+    justify-content: center; /* Add this line to center the divs horizontally */
+    align-items: center; /* Add this line to center the divs vertically */
+    text-align: center;
+  }
+
+  div.project-template {
+    background-color: var(--cornsilk);
+    border-radius: 1rem;
+    padding: 1rem;
+    box-shadow: 0.5rem 0.5rem 1rem rgba(0, 0, 0, 0.2);
+  }
+
+  div.project-template img{
+    width: 100%;
+    border-radius: 1rem;
+  }
+
+  div.project-template h3{
+    font-size: clamp(1rem, 2vw, 2rem);
+    color: var(--dark-moss-green);
+  }
