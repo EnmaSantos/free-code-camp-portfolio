@@ -110,6 +110,6 @@ span#name-animation  {  /* Target individual letters within your name */
   transition: font-size 0.3s ease-in-out; 
 }
 
-span#name-animation span:hover {
+span#name-animation:hover {
    font-size: 1.5em;  
 }
