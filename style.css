@@ -112,4 +112,5 @@ span#name-animation  {  /* Target individual letters within your name */
 
 span#name-animation:hover {
    font-size: 1.5em;  
+   cursor:none;
 }
