@@ -150,3 +150,19 @@ section#projects h1, p{
     font-size: clamp(1rem, 2vw, 2rem);
     color: var(--dark-moss-green);
   }
+  div.project-container > * {  /* Target all child elements within the grid */
+    grid-column: span 1;  /* Ensure each child occupies a single column by default */
+  }
+  
+  /* Media Queries for responsive layout */
+  @media (max-width: 768px) {  /* Adjust breakpoint as needed */
+    div.project-container {
+      grid-template-columns: repeat(2, 1fr);  /* Two columns on smaller screens */
+    }
+  }
+  
+  @media (max-width: 576px) {  /* Adjust breakpoint as needed */
+    div.project-container {
+      grid-template-columns: 1fr;  /* Single column on even smaller screens */
+    }
+  }
