@@ -1,11 +1,5 @@
-let q = 'q';
-let w = 'w';
-let e = 'e';
-let r = 'r';
-let t = 't';
-let y = 'y';
-let u = 'u';
-let i = 'i';
-let o = 'o';
-let p = 'p';
-let a = 'a';
+const navigationHeight = document.querySelector('header').offsetHeight;
+
+// console.log(navigationHeight);
+
+document.documentElement.style.setProperty('--navigation-height', navigationHeight + 29 + 'px');

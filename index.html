@@ -26,48 +26,55 @@
         </div>
     </section>
     <section id="projects">
-        <h1>My Projects</h1>
-        <p>Here are some of my projects</p>
+        <div id="text-content">
+            <h1>My Projects</h1>
+            <p>Here are some of my projects</p>
+        </div>
         <div class="project-container">
             
-            <div class="project-template">
-                <h3>Tribute Page</h3>
-                <img src="" alt="">
-            </div>
-            <div class="project-template">
-                <h3>Survey Form</h3>
-                <img src="" alt="">
-            </div>
-            <div class="project-template">
-                <h3>Product Landing Page</h3>
-                <img src="" alt="">
+                <div class="project-template">
+                    <h3>Tribute Page</h3>
+                    <img src="./img/tribute-page.png" alt="">
+                </div>
+                <div class="project-template">
+                    <h3>Survey Form</h3>
+                    <img src="./img/survey-form.png" alt="">
+                </div>
+                <div class="project-template">
+                    <h3>Product Landing Page</h3>
+                    <img src="./img/pet-zone.png" alt="">
             
-            </div>
+                </div>
         </div>
     </section>
     <section id="contact">
-        
+        <h1>Let's work together</h1>
+        <p>How do you take your gatorade?</p>
+        <div class="social-media">
+            <a href="https://www.facebook.com/yourprofile" target="_blank" rel="noopener">
+                <i class="fa-brands fa-facebook"></i> Facebook
+              </a>
+              <a href="https://www.linkedin.com/in/yourprofile" target="_blank" rel="noopener">
+                <i class="fa-brands fa-linkedin"></i> LinkedIn
+              </a>
+              <a href="https://twitter.com/yourhandle" target="_blank" rel="noopener">
+                <i class="fa-brands fa-x-twitter"></i> X
+              </a>
+              <a href="https://github.com/yourusername" target="_blank" rel="noopener">
+                <i class="fa-brands fa-github"></i> GitHub
+              </a>
+        </div>
     </section>
      <footer>
-     
+        <p>&copy; 2024 Enmanuel De los Santos</p>
      </footer>
-     <p id="demo"></p>
-     <script>
-       const myName = document.getElementById("name-animation");
-const nameLetters = myName.textContent.split('');
+     <script src="https://kit.fontawesome.com/5bcab73dfb.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
 
-myName.textContent = ''; // Clear the existing content
-
-// Add each letter back as a span
-nameLetters.forEach(letter => {
-  const letterSpan = document.createElement('span');
-  letterSpan.textContent = letter;
-  myName.appendChild(letterSpan);
-});
-      
-document.getElementById("demo").innerHTML = myName.textContent;
-      
-      </script>
     </script>
+    <div id="projects">
+        <a href="" id="profile-link" target="_blank"></a>
+        <h1 class="project-title"></h1>
+    </div>
 </body>
 </html>
