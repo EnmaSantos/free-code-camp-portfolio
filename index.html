@@ -3,78 +3,81 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Enmanuel De los Santos - Web Developer Portfolio showcasing projects and skills">
+    <meta name="author" content="Enmanuel De los Santos">
     
-    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="reset.css">
-    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <title>Enmanuel De los Santos - Web Developer Portfolio</title>
 </head>
 <body>
     <header>
-        <nav id="navbar">
+        <nav id="navbar" aria-label="Main navigation">
             <ul>
                 <li><a href="#welcome-section">About</a></li>
                 <li><a href="#projects">Projects</a></li>
                 <li><a href="#contact">Contact</a></li>
-               
             </ul>
         </nav>
     </header>
-    <section id="welcome-section">
-        <div class="welcome-text">
-            <h1>Hello, I'm <span id="name-animation">Enmanuel De los Santos</span></h1>
-            <p>And I'm a Web Developer</p>
-        </div>
-    </section>
-    <section id="projects">
-        <div id="text-content">
-            <h1>My Projects</h1>
-            <p>Here are some of my projects</p>
-        </div>
-        <div class="project-container">
-            
-                <div class="project-template">
-                    <h3>Tribute Page</h3>
-                    <img src="./img/tribute-page.png" alt="">
-                </div>
-                <div class="project-template">
-                    <h3>Survey Form</h3>
-                    <img src="./img/survey-form.png" alt="">
-                </div>
-                <div class="project-template">
-                    <h3>Product Landing Page</h3>
-                    <img src="./img/pet-zone.png" alt="">
-            
-                </div>
-        </div>
-    </section>
-    <section id="contact">
-        <h1>Let's work together</h1>
-        <p>How do you take your gatorade?</p>
-        <div class="social-media">
-            <a href="https://www.facebook.com/yourprofile" target="_blank" rel="noopener">
-                <i class="fa-brands fa-facebook"></i> Facebook
-              </a>
-              <a href="https://www.linkedin.com/in/yourprofile" target="_blank" rel="noopener">
-                <i class="fa-brands fa-linkedin"></i> LinkedIn
-              </a>
-              <a href="https://twitter.com/yourhandle" target="_blank" rel="noopener">
-                <i class="fa-brands fa-x-twitter"></i> X
-              </a>
-              <a href="https://github.com/yourusername" target="_blank" rel="noopener">
-                <i class="fa-brands fa-github"></i> GitHub
-              </a>
-        </div>
-    </section>
-     <footer>
-        <p>&copy; 2024 Enmanuel De los Santos</p>
-     </footer>
-     <script src="https://kit.fontawesome.com/5bcab73dfb.js" crossorigin="anonymous"></script>
-    <script src="script.js"></script>
 
-    </script>
-    <div id="projects">
-        <a href="" id="profile-link" target="_blank"></a>
-        <h1 class="project-title"></h1>
-    </div>
+    <main>
+        <section id="welcome-section" aria-labelledby="welcome-heading">
+            <div class="welcome-text">
+                <h1 id="welcome-heading">Hello, I'm <span id="name-animation">Enmanuel De los Santos</span></h1>
+                <p>And I'm a Web Developer</p>
+            </div>
+        </section>
+
+        <section id="projects" aria-labelledby="projects-heading">
+            <div id="text-content">
+                <h2 id="projects-heading">My Projects</h2>
+                <p>Here are some of my projects</p>
+            </div>
+            <div class="project-container">
+                <article class="project-template">
+                    <h3>Tribute Page</h3>
+                    <img src="./img/tribute-page.png" alt="Screenshot of tribute page project showing a clean layout with biographical information">
+                    <a href="#" class="project-link" aria-label="View Tribute Page project">View Project</a>
+                </article>
+                <article class="project-template">
+                    <h3>Survey Form</h3>
+                    <img src="./img/survey-form.png" alt="Screenshot of survey form project displaying form fields and validation">
+                    <a href="#" class="project-link" aria-label="View Survey Form project">View Project</a>
+                </article>
+                <article class="project-template">
+                    <h3>Product Landing Page</h3>
+                    <img src="./img/pet-zone.png" alt="Screenshot of Pet Zone product landing page with modern design and call-to-action buttons">
+                    <a href="#" class="project-link" aria-label="View Product Landing Page project">View Project</a>
+                </article>
+            </div>
+        </section>
+
+        <section id="contact" aria-labelledby="contact-heading">
+            <h2 id="contact-heading">Let's work together</h2>
+            <p>How do you take your gatorade?</p>
+            <div class="social-media" role="list" aria-label="Social media links">
+                <a href="https://www.facebook.com/yourprofile" target="_blank" rel="noopener" role="listitem" aria-label="Visit my Facebook profile">
+                    <i class="fa-brands fa-facebook" aria-hidden="true"></i> Facebook
+                </a>
+                <a href="https://www.linkedin.com/in/yourprofile" target="_blank" rel="noopener" role="listitem" aria-label="Visit my LinkedIn profile">
+                    <i class="fa-brands fa-linkedin" aria-hidden="true"></i> LinkedIn
+                </a>
+                <a href="https://twitter.com/yourhandle" target="_blank" rel="noopener" role="listitem" aria-label="Visit my X (Twitter) profile">
+                    <i class="fa-brands fa-x-twitter" aria-hidden="true"></i> X
+                </a>
+                <a href="https://github.com/yourusername" target="_blank" rel="noopener" id="profile-link" role="listitem" aria-label="Visit my GitHub profile">
+                    <i class="fa-brands fa-github" aria-hidden="true"></i> GitHub
+                </a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Enmanuel De los Santos. All rights reserved.</p>
+    </footer>
+
+    <script src="https://kit.fontawesome.com/5bcab73dfb.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
 </body>
 </html>
